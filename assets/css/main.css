@@ -2657,6 +2657,9 @@ input, select, textarea {
 			}
 
 /* Spotlight */
+/* #glasses {
+	background-color: black;
+} */
 
 	.spotlight {
 		-moz-align-items: center;
@@ -2667,6 +2670,9 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		/* border-bottom: 0.5px solid; */
+		border-color: rgba(255, 255, 255, 0.555);
+	
 	}
 
 		.spotlight .image {
@@ -2676,6 +2682,9 @@ input, select, textarea {
 			order: 1;
 			border-radius: 0;
 			width: 40%;
+			/* border-right:0.5px solid;
+			border-left:0.5px solid ; */
+			border-color: rgba(255, 255, 255, 0.555);
 		}
 
 			.spotlight .image img {
@@ -2975,7 +2984,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background-color: #2e3842;
+			background-color: #000000be;
 		}
 
 		.wrapper.style3 {
@@ -3566,6 +3575,20 @@ input, select, textarea {
 	margin-top: -180px;
 	margin-bottom: -200px;
 
+}
+@media screen and (max-width: 630px) {
+	.apologo {
+		width: 80%;
+		margin-top: -120px;
+		margin-bottom: -120px;
+	}
+}
+@media screen and (max-width: 494px) {
+	.apologo {
+		width: 70%;
+		margin-top: -50px;
+		margin-bottom: -70px;
+	}
 }
 	#banner {
 		display: -moz-flex;
